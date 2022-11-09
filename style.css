@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --p-size : 15px;
+    --family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--family);
+    background-color: var(--Light-gray);
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    padding: 15px;
+    border-radius: 5%;
+    background-color: var(--White);
+    text-align: center;
+    
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.card p {
+    font-size: var(--p-size);
+    color: var(--Grayish-blue);
+}
